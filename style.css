@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+body {
+    background: url(https://img.freepik.com/vetores-gratis/futurista-liquido-de-fundo-hexagonal_23-2148350892.jpg?w=740&t=st=1708604810~exp=1708605410~hmac=0fef1a745e6c4549451f38e4c47c815a4d4dd06c1189c477ab1e75219351e95b);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #ffff;
+
+}
+
+#calculator {
+    max-width: 360px;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    border-radius: 13px;
+    border: solid 1.5px rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: #6d00a0 1px 1px 10px, #6d00a0 1px 1px 20px, #6d00a0  1px 1px 30px, #6d00a0 1px 1px 40px, #6d00a0 1px 1px 50px, #6d00a0 1px 1px 60px ;
+}
+
+#display {
+    width: 90%;
+    height: 50px;
+    font-size: 21px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background:#6a1a7a;
+    border: solid 1.5px black;
+    box-sizing: border-box;
+}
+
+button {
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 19px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    background-color: #6a1a7a;
+    color: #000000;
+    box-shadow: none;
+    border-radius: 5px;
+    border: solid 2px black;
+}
+
+.operator {
+    color: rgb(255, 255, 255);
+    background-color: #272727;
+}
+
+#ac {
+    color: #2f0038;
+}
+
+.equal {
+    width: calc(50% - 12px);
+    background-color: rgb(34, 0, 54);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(1.1);
+    box-shadow: #751acf 1px 1px 20px;
+}
